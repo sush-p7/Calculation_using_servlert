@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        #buttons{
+            box-sizing: border-box;
+            margin-top: .5em;
+            width: 20em;
+            height: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+    </style>
+</head>
+<body>
+  <form action="hello-servlet" method="post">
+      <input type="number" name="t1">
+      <input type="number" name="t2"><br>
+      <div id="buttons">
+          <button type="submit" value="+" name="b1">+</button>
+          <button type="submit" value="-" name="b2">-</button>
+          <button type="submit" value="*" name="b3">*</button>
+          <button type="submit" value="/" name="b4">/</button>
+      </div>
+  </form>
+</body>
+</html>
